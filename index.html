@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diego Meira</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="root-container">
+      <div class="content-container">
+        <section class="section-hero">
+          <div class="navigation-bar">
+            <h2 class="navigation-title">Diego Meira</h2>
+            <div>
+              <a
+                onclick="onClickScrollTo('section-abilities')"
+                class="navigation-links"
+                >Abilities</a
+              >
+              <a
+                class="navigation-links"
+                onclick="onClickScrollTo('section-portfolio')"
+                >Portfolio</a
+              >
+              <a
+                class="navigation-links"
+                onclick="onClickScrollTo('section-experiences')"
+                >Experience</a
+              >
+            </div>
+            <button onclick="onClickScrollTo('section-contact')">
+              CONTACT
+            </button>
+          </div>
+          <div class="hero-info">
+            <div class="hero-info-text-container">
+              <h1 class="hero-info-title">
+                Hello <br />
+                I'm Diego Meira
+              </h1>
+              <p class="hero-info-subtitle">
+                Programming student since 2024, focusing on the backend area,
+                exploring logic, JavaScript and APIs. Committed to continuous
+                learning and growth in software development.
+              </p>
+              <button onclick="onClickScrollTo('section-contact')">
+                Enter contact
+              </button>
+              <div class="hero-info-icons-container">
+                <a href="https://github.com/xcodedi" target="_blank">
+                  <img
+                    alt="Github"
+                    class="hero-info-icons-img"
+                    src="icons/github.png"
+                  />
+                </a>
+                <a
+                href="https://www.linkedin.com/in/diego-meira-1a062521a"
+                target="_blank"
+                >
+                  <img
+                    alt="Linkedin"
+                    class="hero-info-icons-img"
+                    src="icons/linkedin.png"
+                  />
+                </a>
+                <a
+              href="https://www.instagram.com/diegomeiraaa/"
+              target="_blank"
+            >
+                  <img
+                    alt="Instagram"
+                    class="hero-info-icons-img"
+                    src="icons/instagram.png"
+                  />
+                </a>
+              </div>
+            </div>
+            <div>
+              <img
+                class="hero-info-image"
+                src="image.jpeg"
+                alt="Diego Meira's Profile"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="section-abilities" id="section-abilities">
+          <h2>Technologies</h2>
+          <h2 class="green">I work with:</h2>
+          <div class="ability-cards-container">
+            <div class="ability-card">
+              <div class="ability-card-icon-container">
+                <img
+                  class="ability-card-icon-img"
+                  src="icons/general.png"
+                  alt="General Abilities"
+                />
+              </div>
+              <h5>General Tools</h5>
+              <p class="card">Technologies I use in daily programming tasks.</p>
+              <ul class="ability-list">
+                <li>Git</li>
+                <li>Github</li>
+                <li>Docker</li>
+                <li>VSCode</li>
+                <li>Insomnia</li>
+              </ul>
+            </div>
+            <div class="ability-card">
+              <div class="ability-card-icon-container">
+                <img
+                  class="ability-card-icon-img"
+                  src="icons/backend.png"
+                  alt="Back-End"
+                />
+              </div>
+              <h5>Back-End</h5>
+              <p class="card">Database management and cloud applications.</p>
+              <ul class="ability-list">
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>SQL</li>
+                <li>Express</li>
+                <li>JWT Authentication</li>
+                <li>Sequelize</li>
+                <li>Mongoose</li>
+                <li>Postgres</li>
+                <li>MongoDB</li>
+                <li>MongoDB Atlas</li>
+                <li>Heroku</li>
+                <li>AWS</li>
+              </ul>
+            </div>
+            <div class="ability-card">
+              <div class="ability-card-icon-container">
+                <img
+                  class="ability-card-icon-img"
+                  src="icons/frontend.png"
+                  alt="Front-End"
+                />
+              </div>
+              <h5>Front-End</h5>
+              <p class="card">Tools used to create web systems.</p>
+              <ul class="ability-list">
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section-portfolio" id="section-portfolio">
+          <h2>Portfolio</h2>
+          <h2 class="green">of projects</h2>
+          <div class="section-portfolio-grid">
+            <div class="section-portfolio-card">
+              <img
+                class="section-portfolio-img"
+                src="projects/supermarketlist.png"
+                alt="Supermarket Project"
+              />
+              <h5>Supermarket List</h5>
+              <p class="card">React.js application with Express and MongoDB.</p>
+              <div class="section-portfolio-card-links">
+                <a href="https://github.com/xcodedi/supermarket-list-api" target="_blank">
+                  <img
+                    class="section-portfolio-card-icon-image"
+                    src="icons/iconlink.jpg"
+                    alt="Project link"
+                  />
+                </a>
+                <a>
+                  <img
+                    class="section-portfolio-card-icon-image"
+                    src="icons/github.png"
+                    alt="Project Github"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="section-portfolio-card">
+              <img
+                class="section-portfolio-img"
+                src="projects/bookclub.png"
+                alt="BookClub"
+              />
+              <h5>BookClub</h5>
+              <p class="card">
+                React.js application with Express, Sequelize and AWS.
+              </p>
+              <div class="section-portfolio-card-links">
+                <a href="https://github.com/xcodedi/booksclub-api" target="_blank">
+                  <img
+                    class="section-portfolio-card-icon-image"
+                    src="icons/iconlink.jpg"
+                    alt="Project link"
+                  />
+                </a>
+                <a>
+                  <img
+                    class="section-portfolio-card-icon-image"
+                    src="icons/github.png"
+                    alt="Project Github"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="section-portfolio-card">
+              <img
+                class="section-portfolio-img"
+                src="projects/walletfinances.png"
+                alt="Supermarket Project"
+              />
+              <h5>Wallet Finances</h5>
+              <p class="card">With Express and HEROKU.</p>
+              <div class="section-portfolio-card-links">
+                <a href="https://github.com/xcodedi/wallet-finances" target="_blank">
+                  <img
+                    class="section-portfolio-card-icon-image"
+                    src="icons/iconlink.jpg"
+                    alt="Project link"
+                  />
+                </a>
+                <a>
+                  <img
+                    class="section-portfolio-card-icon-image"
+                    src="icons/github.png"
+                    alt="Project Github"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="section-portfolio-card">
+              <img
+                class="section-portfolio-img"
+                src="projects/allegre.png"
+                alt="Allegre"
+              />
+              <h5>Allegre</h5>
+              <p class="card">With Node.js Nest.js and Prisma.</p>
+              <div class="section-portfolio-card-links">
+                <a href="https://github.com/xcodedi/allegre-api" target="_blank">
+                  <img
+                    class="section-portfolio-card-icon-image"
+                    src="icons/iconlink.jpg"
+                    alt="Project link"
+                  />
+                </a>
+                <a>
+                  <img
+                    class="section-portfolio-card-icon-image"
+                    src="icons/github.png"
+                    alt="Project Github"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-experiences" id="section-experiences">
+          <h2>Experiences</h2>
+          <h2 class="green">Professional.</h2>
+        
+          <div class="section-experiences-card">
+            <img class="section-experiences-card-img" src="company/meiras.jpg" />
+            <div class="section-experiences-card-text-container">
+              <h6 class="section-experiences-card-title">
+                In the company itself, working as a Civil Engineer.
+              </h6>
+              <p class="section-experiences-card-subtitle">
+                Meiras Engineering - 2016 to 2024
+              </p>
+              <p class="section-experiences-card-text">
+                Working only with structural calculations.
+              </p>
+            </div>
+          </div>
+        
+          <div class="section-experiences-card">
+            <img class="section-experiences-card-img" src="company/myself.JPG" />
+            <div class="section-experiences-card-text-container">
+              <h6 class="section-experiences-card-title">
+                Freelancer - Full Stack Developer
+              </h6>
+              <p class="section-experiences-card-subtitle">
+                Myself - 2024 to the present
+              </p>
+              <p class="section-experiences-card-text">Web developer</p>
+            </div>
+          </div>
+        </section>
+        <section class="section-contact" id="section-contact">
+          <h2>Enter</h2>
+          <h2 class="green">Contact</h2> 
+          <p>I am available to help your company </p>
+          <div class="section-contact-item">
+            <img class="section-contact-item-icon" src="icons/email.jpg" alt="E-Mail icon"/>
+            <p>di.meira@hotmail.com</p>
+          </div>
+          <div class="section-contact-item">
+            <img class="section-contact-item-icon" src="icons/phone.jpg" alt="Phone icon">
+            <p> Brazil = +55 (54) 99991-4553 </p>
+          </div>
+        </section>
+      </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content"> 
+        <h2 class="navigation-title">DIEGO MEIRA</h2>
+          <div class="footer-social-icons-container" >
+            <a href="https://github.com/xcodedi" target="_blank">
+              <img
+                alt="Github"
+                class="hero-info-icons-img"
+                src="icons/github.png"
+              />
+            </a>
+            <a
+            href="https://www.linkedin.com/in/diego-meira-1a062521a"
+            target="_blank"
+            >
+              <img
+                alt="Linkedin"
+                class="hero-info-icons-img"
+                src="icons/linkedin.png"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/diegomeiraaa/"
+              target="_blank"
+            >
+              <img
+                alt="Instagram"
+                class="hero-info-icons-img"
+                src="icons/instagram.png"
+              />
+            </a>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
