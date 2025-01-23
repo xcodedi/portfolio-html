@@ -1,16 +1,16 @@
-## Portfolio and abilities-html
+# Portfolio and skills-html
 
-# Introduction
+## Introduction
 
 Website with my professional information
 
-# Preview
+## Preview
 
 <img src="https://github.com/xcodedi/portfolio-html/blob/main/profileimg.PNG" height="500"/>
 
-# Main concepts applied
+## Main concepts applied
 
 -FlexBox
--Dom manipulation
+-DOM Manipulation
 -Events
 -CSS Media Query
