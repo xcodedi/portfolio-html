@@ -43,6 +43,7 @@
   .navigation-bar {
     width: 100%;
     margin-top: 24px;
+    margin-bottom: 220px;
   }
 
   .navigation-title {
@@ -87,12 +88,13 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    margin-top: 140px;
+    margin-top: 180px;
   }
 
   .hero-info-image {
     width: 390px;
     height: 500px;
+    margin-bottom: 0px;
   }
 
   .section-abilities {
@@ -171,5 +173,6 @@
   .hero-info-icons-container {
     margin-top: 40px;
     width: 60%;
+    margin-bottom: 700px;
   }
 }
