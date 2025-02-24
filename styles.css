@@ -133,7 +133,8 @@ footer {
   width: 1216px;
   height: 594px;
   padding-top: 54px;
-  padding-bottom: 54px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .hero-info-title {

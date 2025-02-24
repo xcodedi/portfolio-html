@@ -35,6 +35,12 @@
     padding-right: 12px;
   }
 
+  .root-container {
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   .content-container {
     width: 94vw;
     max-width: 94vw;
