@@ -134,7 +134,7 @@ footer {
   height: 594px;
   padding-top: 54px;
   padding-bottom: 80px;
-  margin-bottom: 300px;
+  margin-bottom: 400px;
 }
 
 .hero-info-title {
@@ -151,14 +151,14 @@ footer {
 }
 
 .hero-info-image {
-  height: 500px;
-  width: 450px;
+  height: 480px;
+  width: 430px;
   border-radius: 40px;
   border-color: black;
   border-width: 4px;
   border-style: solid;
   margin-top: 390px;
-  margin-bottom: 450px;
+  margin-bottom: 500px;
 }
 
 .hero-info-icons-container {
@@ -168,6 +168,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   margin-top: 24px;
+  margin-bottom: 100px;
 }
 
 .hero-info-icons-img {
@@ -182,7 +183,7 @@ footer {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  padding-top: 44px;
+  padding-top: 200px;
   padding-bottom: 64px;
 }
 
