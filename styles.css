@@ -77,8 +77,10 @@ footer {
 .root-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .content-container {
@@ -131,6 +133,7 @@ footer {
   width: 1216px;
   height: 594px;
   padding-top: 54px;
+  padding-bottom: 54px;
 }
 
 .hero-info-title {
