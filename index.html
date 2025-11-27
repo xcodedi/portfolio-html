@@ -1,122 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diego Meira</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="mobile.css" />
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
   </head>
   <body>
+
     <div class="root-container">
       <div class="content-container">
+
+        <!-- HERO -->
         <section class="section-hero">
+
           <div class="navigation-bar">
             <h2 class="navigation-title">Diego Meira</h2>
+
             <div>
-              <a
-                onclick="onClickScrollTo('section-abilities')"
-                class="navigation-links"
-                >Abilities</a
-              >
-              <a
-                class="navigation-links"
-                onclick="onClickScrollTo('section-portfolio')"
-                >Portfolio</a
-              >
-              <a
-                class="navigation-links"
-                onclick="onClickScrollTo('section-experiences')"
-                >Experience</a
-              >
+              <a onclick="onClickScrollTo('section-abilities')" class="navigation-links">Abilities</a>
+              <a onclick="onClickScrollTo('section-portfolio')" class="navigation-links">Portfolio</a>
+              <a onclick="onClickScrollTo('section-experiences-professional')" class="navigation-links">Experience</a>
             </div>
-            <button onclick="onClickScrollTo('section-contact')">
-              CONTACT
-            </button>
+
+            <button onclick="onClickScrollTo('section-contact')">CONTACT</button>
           </div>
+
           <div class="hero-info">
             <div class="hero-info-text-container">
               <h1 class="hero-info-title">
                 Hello <br />
                 I'm Diego Meira
               </h1>
+
               <p class="hero-info-subtitle">
-                I'm a 28-year-old Brazilian with knowledge in full stack development, data science, and structural engineering. Focused on building smart, efficient tech solutions.
+                Currently focused on developing expertise in Cloud and DevOps, with an emphasis on AWS and cloud-native technologies.
               </p>
-              <button onclick="onClickScrollTo('section-contact')">
-                Enter contact
-              </button>
+
+              <button onclick="onClickScrollTo('section-contact')">Enter contact</button>
+
               <div class="hero-info-icons-container">
-                <a href="https://github.com/xcodedi" target="_blank">
-                  <img
-                    alt="Github"
-                    class="hero-info-icons-img"
-                    src="icons/github.png"
-                  />
+                <a href="https://github.com/xcodedi" target="_blank" rel="noopener noreferrer">
+                  <img alt="Github" class="hero-info-icons-img" src="icons/github.png" />
                 </a>
-                <a
-                  href="https://www.linkedin.com/in/diego-meira-1a062521a"
-                  target="_blank"
-                >
-                  <img
-                    alt="Linkedin"
-                    class="hero-info-icons-img"
-                    src="icons/linkedin.png"
-                  />
+                <a href="https://www.linkedin.com/in/diego-meira-1a062521a" target="_blank" rel="noopener noreferrer">
+                  <img alt="LinkedIn" class="hero-info-icons-img" src="icons/linkedin.png" />
                 </a>
-                <a
-                  href="https://www.instagram.com/diegomeiraaa/"
-                  target="_blank"
-                >
-                  <img
-                    alt="Instagram"
-                    class="hero-info-icons-img"
-                    src="icons/instagram.png"
-                  />
+                <a href="https://www.instagram.com/diegomeiraaa/" target="_blank" rel="noopener noreferrer">
+                  <img alt="Instagram" class="hero-info-icons-img" src="icons/instagram.png" />
                 </a>
               </div>
             </div>
+
             <div>
-              <img
-                class="hero-info-image"
-                src="image.jpeg"
-                alt="Diego Meira's Profile"
-              />
+              <img class="hero-info-image" src="image.jpeg" alt="Diego Meira's Profile" />
             </div>
           </div>
+
         </section>
+
+        <!-- TECHNOLOGIES -->
         <section class="section-abilities" id="section-abilities">
           <h2>Technologies</h2>
           <h2 class="gold">I work with:</h2>
+
           <div class="ability-cards-container">
+
+            <!-- GENERAL -->
             <div class="ability-card">
               <div class="ability-card-icon-container">
-                <img
-                  class="ability-card-icon-img"
-                  src="icons/general.png"
-                  alt="General Abilities"
-                />
+                <img class="ability-card-icon-img" src="icons/general.png" alt="General Tools" />
               </div>
               <h5>General Tools</h5>
               <p class="card">Technologies I use in daily programming tasks</p>
               <ul class="ability-list">
                 <li>Git</li>
-                <li>Github</li>
+                <li>GitHub</li>
                 <li>Docker</li>
                 <li>VSCode</li>
                 <li>Insomnia</li>
-                <li>Docker</li>
               </ul>
             </div>
+
+            <!-- CLOUD -->
             <div class="ability-card">
               <div class="ability-card-icon-container">
-                <img
-                  class="ability-card-icon-img"
-                  src="icons/datascience.png"
-                  alt="Back-End"
-                />
+                <img class="ability-card-icon-img" src="icons/cloud.png" alt="Cloud" />
               </div>
-              <h5>Data Science</Data>
-              </h5>
+              <h5>Cloud</h5>
+              <p class="card">Architect / Engineer Cloud Solutions</p>
+              <ul class="ability-list">
+                <li>AWS</li>
+                <li>Linux</li>
+                <li>IAM</li>
+                <li>Compute</li>
+                <li>Storage</li>
+                <li>Databases</li>
+                <li>Serverless</li>
+                <li>Networking</li>
+                <li>Monitoring</li>
+                <li>Docker</li>
+                <li>Kubernetes</li>
+                <li>CI/CD</li>
+              </ul>
+            </div>
+
+            <!-- DATA -->
+            <div class="ability-card">
+              <div class="ability-card-icon-container">
+                <img class="ability-card-icon-img" src="icons/datascience.png" alt="Data Science" />
+              </div>
+              <h5>Data Science</h5>
               <p class="card">Statistical and mathematical data analysis</p>
               <ul class="ability-list">
                 <li>Python</li>
@@ -125,22 +121,21 @@
                 <li>Power BI</li>
                 <li>Google Colab</li>
                 <li>Jupyter</li>
-                <li>Jasp</li>
+                <li>JASP</li>
                 <li>Google Sheets</li>
                 <li>Excel</li>
-                <li>Word</li>
               </ul>
             </div>
+
+            <!-- BACKEND -->
             <div class="ability-card">
               <div class="ability-card-icon-container">
-                <img
-                  class="ability-card-icon-img"
-                  src="icons/backend.png"
-                  alt="Back-End"
-                />
+                <img class="ability-card-icon-img" src="icons/backend.png" alt="Backend" />
               </div>
               <h5>Back-End</h5>
-              <p class="card">Database management and cloud applications</p>
+              <p class="card">
+                Logic, security, integration, data storage, and communication
+              </p>
               <ul class="ability-list">
                 <li>JavaScript</li>
                 <li>Node.js</li>
@@ -149,27 +144,23 @@
                 <li>JWT Authentication</li>
                 <li>Sequelize</li>
                 <li>Mongoose</li>
-                <li>Postgres</li>
+                <li>PostgreSQL</li>
                 <li>MongoDB</li>
                 <li>MongoDB Atlas</li>
-                <li>Heroku</li>
                 <li>AWS</li>
               </ul>
             </div>
-          </div>
+
+            <!-- FRONT -->
             <div class="ability-card">
               <div class="ability-card-icon-container">
-                <img
-                  class="ability-card-icon-img"
-                  src="icons/frontend.png"
-                  alt="Front-End"
-                />
+                <img class="ability-card-icon-img" src="icons/frontend.png" alt="Frontend" />
               </div>
               <h5>Front-End</h5>
               <p class="card">Tools used to create web systems</p>
               <ul class="ability-list">
                 <li>JavaScript</li>
-                <li>Html</li>
+                <li>HTML</li>
                 <li>CSS</li>
                 <li>Tailwind CSS</li>
                 <li>React</li>
@@ -177,258 +168,177 @@
                 <li>Styled Components</li>
               </ul>
             </div>
+
           </div>
         </section>
+
+        <!-- PORTFOLIO -->
         <section class="section-portfolio" id="section-portfolio">
           <h2>Portfolio</h2>
-          <h2 class="gold">of projects</h2>
+          <h2 class="gold">of projects as developer</h2>
+
           <div class="section-portfolio-grid">
+
+            <!-- PROJECT 1 -->
             <div class="section-portfolio-card">
-              <img
-                class="section-portfolio-img"
-                src="projects/supermarketlist.png"
-                alt="Supermarket Project"
-              />
+              <img class="section-portfolio-img" src="projects/supermarketlist.png" alt="Supermarket List" />
               <h5>Supermarket List</h5>
-              <p class="card">React.js application with Express and MongoDB.</p>
+              <p class="card">React, Express and MongoDB</p>
               <div class="section-portfolio-card-links">
-                <a
-                  href="https://github.com/xcodedi/supermarket-list-api"
-                  target="_blank"
-                >
-                  <img
-                    class="section-portfolio-card-icon-image"
-                    src="icons/iconlink.jpg"
-                    alt="Project link"
-                  />
-                </a>
-                <a>
-                  <img
-                    class="section-portfolio-card-icon-image"
-                    src="icons/github.png"
-                    alt="Project Github"
-                  />
+                <a href="https://github.com/xcodedi/supermarket-list-api" target="_blank" rel="noopener noreferrer">
+                  <img class="section-portfolio-card-icon-image" src="icons/iconlink.jpg" alt="Repository" />
                 </a>
               </div>
             </div>
+
+            <!-- PROJECT 2 -->
             <div class="section-portfolio-card">
-              <img
-                class="section-portfolio-img"
-                src="projects/bookclub.png"
-                alt="BookClub"
-              />
+              <img class="section-portfolio-img" src="projects/bookclub.png" alt="BookClub" />
               <h5>BookClub</h5>
-              <p class="card">
-                React.js application with Express, Sequelize and AWS.
-              </p>
+              <p class="card">React, Express, Sequelize and AWS</p>
               <div class="section-portfolio-card-links">
-                <a
-                  href="https://github.com/xcodedi/booksclub-api"
-                  target="_blank"
-                >
-                  <img
-                    class="section-portfolio-card-icon-image"
-                    src="icons/iconlink.jpg"
-                    alt="Project link"
-                  />
-                </a>
-                <a>
-                  <img
-                    class="section-portfolio-card-icon-image"
-                    src="icons/github.png"
-                    alt="Project Github"
-                  />
+                <a href="https://github.com/xcodedi/booksclub-api" target="_blank" rel="noopener noreferrer">
+                  <img class="section-portfolio-card-icon-image" src="icons/iconlink.jpg" alt="Repository" />
                 </a>
               </div>
             </div>
+
+            <!-- PROJECT 3 -->
             <div class="section-portfolio-card">
-              <img
-                class="section-portfolio-img"
-                src="projects/walletfinances.png"
-                alt="Supermarket Project"
-              />
+              <img class="section-portfolio-img" src="projects/walletfinances.png" alt="Wallet Finances" />
               <h5>Wallet Finances</h5>
-              <p class="card">With Express and HEROKU.</p>
+              <p class="card">Express and Heroku</p>
               <div class="section-portfolio-card-links">
-                <a
-                  href="https://github.com/xcodedi/wallet-finances"
-                  target="_blank"
-                >
-                  <img
-                    class="section-portfolio-card-icon-image"
-                    src="icons/iconlink.jpg"
-                    alt="Project link"
-                  />
-                </a>
-                <a>
-                  <img
-                    class="section-portfolio-card-icon-image"
-                    src="icons/github.png"
-                    alt="Project Github"
-                  />
+                <a href="https://github.com/xcodedi/wallet-finances" target="_blank" rel="noopener noreferrer">
+                  <img class="section-portfolio-card-icon-image" src="icons/iconlink.jpg" alt="Repository" />
                 </a>
               </div>
             </div>
+
+            <!-- PROJECT 4 -->
             <div class="section-portfolio-card">
-              <img
-                class="section-portfolio-img"
-                src="projects/allegre.png"
-                alt="Allegre"
-              />
+              <img class="section-portfolio-img" src="projects/allegre.png" alt="Allegre" />
               <h5>Allegre</h5>
-              <p class="card">With Node.js Nest.js and Prisma.</p>
+              <p class="card">NestJS and Prisma</p>
               <div class="section-portfolio-card-links">
-                <a
-                  href="https://github.com/xcodedi/allegre-api"
-                  target="_blank"
-                >
-                  <img
-                    class="section-portfolio-card-icon-image"
-                    src="icons/iconlink.jpg"
-                    alt="Project link"
-                  />
-                </a>
-                <a>
-                  <img
-                    class="section-portfolio-card-icon-image"
-                    src="icons/github.png"
-                    alt="Project Github"
-                  />
+                <a href="https://github.com/xcodedi/allegre-api" target="_blank" rel="noopener noreferrer">
+                  <img class="section-portfolio-card-icon-image" src="icons/iconlink.jpg" alt="Repository" />
                 </a>
               </div>
             </div>
+
           </div>
         </section>
-        <section class="section-experiences" id="section-experiences">
+
+        <!-- EXPERIENCE -->
+        <section class="section-experiences" id="section-experiences-professional">
           <h2>Experiences</h2>
           <h2 class="gold">Professional</h2>
 
           <div class="section-experiences-card">
-            <img
-              class="section-experiences-card-img"
-              src="company/meiras.JPG"
-            />
+            <img class="section-experiences-card-img" src="company/meiras.JPG" alt="Meiras Engineering" />
             <div class="section-experiences-card-text-container">
-              <h6 class="section-experiences-card-title">
-                Self-employed - Civil Engineer.
-              </h6>
-              <p class="section-experiences-card-subtitle">
-                Meiras Engineering - 2016-2024
-              </p>
-              <p class="section-experiences-card-text">
-                Working only with structural calculations.
-              </p>
+              <h6 class="section-experiences-card-title">Self-employed - Civil Engineer</h6>
+              <p class="section-experiences-card-subtitle">Meira's Engineering — 2016–2024</p>
+              <p class="section-experiences-card-text">Focused on structural calculations.</p>
             </div>
           </div>
 
           <div class="section-experiences-card">
-            <img
-              class="section-experiences-card-img"
-              src="company/myself.JPG"
-            />
+            <img class="section-experiences-card-img" src="company/myself.JPG" alt="Freelancer" />
             <div class="section-experiences-card-text-container">
-              <h6 class="section-experiences-card-title">
-                Freelancer - Full Stack Developer
-              </h6>
-              <p class="section-experiences-card-subtitle">
-                2024-present
-              </p>
-              <p class="section-experiences-card-text">Web developer</p>
+              <h6 class="section-experiences-card-title">Freelancer - Full Stack Developer</h6>
+              <p class="section-experiences-card-subtitle">2024-Present</p>
+              <p class="section-experiences-card-text">Web development and APIs.</p>
             </div>
           </div>
         </section>
-        <section class="section-experiences" id="section-experiences">
+
+        <!-- ACADEMIC -->
+        <section class="section-experiences" id="section-experiences-academic">
           <h2>Academic</h2>
           <h2 class="gold">Background</h2>
+
           <div class="section-experiences-card">
-            <img class="section-experiences-card-img" src="icons/enginner.png" alt="Engineer icon" />
+            <img class="section-experiences-card-img" src="icons/engineer.png" alt="Civil Engineering" />
             <div class="section-experiences-card-text-container">
               <h6 class="section-experiences-card-title">Civil Engineering</h6>
-              <p class="section-experiences-card-subtitle">Period: 2015 to 2020</p>
-              <p class="section-experiences-card-text">University: ATITUS EDUCATION - In Person</p>
+              <p class="section-experiences-card-subtitle">2015–2020</p>
+              <p class="section-experiences-card-text">ATITUS Education — In Person</p>
             </div>
           </div>
+
           <div class="section-experiences-card">
-            <img class="section-experiences-card-img" src="icons/computacao.JPG" alt="Computing icon" />
+            <img class="section-experiences-card-img" src="icons/computacao.JPG" alt="Computer Engineering" />
             <div class="section-experiences-card-text-container">
-              <h6 class="section-experiences-card-title">Computer Engineering</h6>
-              <p class="section-experiences-card-subtitle">Period: 2025 - 2028</p>
-              <p class="section-experiences-card-text">University: ATITUS Education - In Person</p> 
+              <h6 class="section-experiences-card-title">Computer Science</h6>
+              <p class="section-experiences-card-subtitle">2025–2028</p>
+              <p class="section-experiences-card-text">ATITUS Education — In Person</p>
             </div>
-          </div>
           </div>
         </section>
-        <section class="section-experiences" id="section-experiences">
+
+        <!-- LANGUAGES -->
+        <section class="section-experiences" id="section-languages">
           <h2>Languages</h2>
           <h2 class="gold">Spoken</h2>
+
           <div class="section-experiences-card">
-            <img class="section-experiences-card-img" src="icons/english.jpg" alt="English Icon" />
+            <img class="section-experiences-card-img" src="icons/english.jpg" alt="English" />
             <div class="section-experiences-card-text-container">
               <h6 class="section-experiences-card-title">English</h6>
-              <p class="section-experiences-card-subtitle">Level: Intermediate</p>
+              <p class="section-experiences-card-subtitle">Intermediate</p>
             </div>
           </div>
+
           <div class="section-experiences-card">
-            <img class="section-experiences-card-img" src="icons/portuguese.jpg" alt="Portuguese Icon" />
+            <img class="section-experiences-card-img" src="icons/portuguese.jpg" alt="Portuguese" />
             <div class="section-experiences-card-text-container">
               <h6 class="section-experiences-card-title">Portuguese</h6>
-              <p class="section-experiences-card-subtitle">Level: Fluent/Native</p>
+              <p class="section-experiences-card-subtitle">Fluent / Native</p>
             </div>
           </div>
         </section>
-          <section class="section-contact" id="section-contact">
-            <h2>Enter</h2>
-            <h2 class="gold">Contact</h2>
-            <p>I am available to help your company</p>
-            <div class="section-contact-item">
-              <img
-                class="section-contact-item-icon"
-                src="icons/email.jpg"
-                alt="E-Mail icon"
-              />
-              <a href="mailto:di.meira@hotmail.com">di.meira@hotmail.com</a>
-            </div>
-            <div class="section-contact-item">
-              <img
-                class="section-contact-item-icon"
-                src="icons/phone.jpg"
-                alt="Phone icon"
-              />
-              <a href="tel: 5554999914553"> Brazil = +55 (54) 99991-4553 </a>
-            </div>
-          </section>
-        </div>
+
+        <!-- CONTACT -->
+        <section class="section-contact" id="section-contact">
+          <h2>Enter</h2>
+          <h2 class="gold">Contact</h2>
+          <p>I am available to help your company</p>
+
+          <div class="section-contact-item">
+            <img class="section-contact-item-icon" src="icons/email.jpg" alt="Email" />
+            <a href="mailto:di.meira@hotmail.com">di.meira@hotmail.com</a>
+          </div>
+
+          <div class="section-contact-item">
+            <img class="section-contact-item-icon" src="icons/phone.jpg" alt="Phone" />
+            <a href="tel:+5554999914553">+55 (54) 99991-4553</a>
+          </div>
+
+        </section>
+
       </div>
     </div>
+
+    <!-- FOOTER -->
     <footer>
       <div class="footer-content">
         <h2 class="navigation-title">DIEGO MEIRA</h2>
+
         <div class="footer-social-icons-container">
-          <a href="https://github.com/xcodedi" target="_blank">
-            <img
-              alt="Github"
-              class="hero-info-icons-img"
-              src="icons/github.png"
-            />
+          <a href="https://github.com/xcodedi" target="_blank" rel="noopener noreferrer">
+            <img alt="Github" class="hero-info-icons-img" src="icons/github.png" />
           </a>
-          <a
-            href="https://www.linkedin.com/in/diego-meira-1a062521a"
-            target="_blank">
-            <img
-              alt="Linkedin"
-              class="hero-info-icons-img"
-              src="icons/linkedin.png"
-            />
+          <a href="https://www.linkedin.com/in/diego-meira-1a062521a" target="_blank" rel="noopener noreferrer">
+            <img alt="LinkedIn" class="hero-info-icons-img" src="icons/linkedin.png" />
           </a>
-          <a href="https://www.instagram.com/diegomeiraaa/" target="_blank">
-            <img
-              alt="Instagram"
-              class="hero-info-icons-img"
-              src="icons/instagram.png"
-            />
+          <a href="https://www.instagram.com/diegomeiraaa/" target="_blank" rel="noopener noreferrer">
+            <img alt="Instagram" class="hero-info-icons-img" src="icons/instagram.png" />
           </a>
         </div>
       </div>
     </footer>
+
   </body>
 </html>
